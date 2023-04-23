@@ -21,7 +21,7 @@
   - [ ] An Gym can only be registered by administrators;
 
 ## NFRs (Non-Functional Requirements)
-  - [ ] The user's password must be encrypted;
-  - [ ] Application data must be persisted in a PostgreSQL database;
+  - [X] The user's password must be encrypted;
+  - [X] Application data must be persisted in a PostgreSQL database;
   - [ ] All data lists must be paginated with 20 items per page;
   - [ ] The user must be identified by a JWT (JSON Web Token);

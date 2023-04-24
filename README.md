@@ -1,7 +1,7 @@
 # APP
 
 ## RFs (Functional Requirements)
-   - [ ] It must be possible to register;
+   - [X] It must be possible to register;
    - [ ] It must be possible to authenticate;
    - [ ] It must be possible to obtain the profile of a logged-in user;
    - [ ] It must be possible to obtain the number of check-ins performed by the logged-in user;
@@ -13,7 +13,7 @@
    - [ ] It must be possible to register an academy;
    
 ## RNs (Business Rules)
-  - [ ] The user must not be able to register with a duplicate email;
+  - [X] The user must not be able to register with a duplicate email;
   - [ ] The user cannot make 2 check-ins on the same day;
   - [ ] The user cannot check-in if he is not close (100m) to the gym;
   - [ ] The check-in can only be validated up to 20 minutes after being created;

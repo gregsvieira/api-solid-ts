@@ -27,8 +27,6 @@ export class RegisterUseCase {
   
 		if (userWithSameEmail) {
 			throw new UserAlreadyExistsError;
-		} else {
-			// TODO: Should log to an exteranl tool (sentry)
 		}
   
 		const user = await this.usersRepository.create({
